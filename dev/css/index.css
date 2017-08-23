@@ -1,0 +1,131 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:14px; font-family:"微软雅黑";background:#FFF;color: #333333;
+min-width: 1226px;width: 100%;}
+input,a{outline:none;text-decoration:none;}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.index-top,.content{
+	width: 1226px;
+	margin: 0 auto;
+}
+.index-nav{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.index-top a{
+	color: #b0b0b0;
+	font-size: 12px;
+	
+}
+.index-top{
+	position: relative;
+	height: 40px;
+}
+.index-top-left{
+	width: 1106px;
+	float: left;
+	height: 20px;
+	padding: 10px 0;	
+}
+.index-top-buy{
+	width: 120px;
+	background: #424242;
+	float: right;
+	height: 40px;
+}
+.index-top-right{
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	background: #cecece;
+	height: 80px;
+	width: 260px;
+	box-shadow: 5px 5px 3px #E9E9E9;
+}
+.nav-left{
+	float: left;
+}
+.nav-right{
+	float: right;
+}
+.nav-left a{
+	padding: 0 9px 0 8px;
+	border-right: 1px solid #424242;
+	text-decoration: none;
+}
+.nav-right a:hover{
+	color: #FFFFFF;
+}
+.nav-left a:hover{
+	color: #FFFFFF;
+}
+.index-top-buy:hover{
+	background: #FFFFFF;	
+}
+.index-top-buy:hover a{
+	color: #BD2C00;
+}
+.index-top-buy:hover .index-top-right{
+	display: block;
+	background: #FFFFFF;
+}
+.index-top-buy a{
+	font-family:'iconfont';
+	display: block;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: center;
+	color: #b0b0b0;
+}
+/*-----------------------------content内容区---------------------------*/
+.content{
+	height: 1208px;
+	background: #55A532;
+}
+.content-nav{
+	height: 100px;
+	background: #FFFFFF;
+}
+.pic{
+	display: block;
+	float: left;
+	height: 55px;
+	width: 55px;
+	margin-top: 22px;
+}
+.nav-select{
+	float: left;
+	margin-left: 188px;
+} 
+.nav-select li{
+	line-height: 100px;
+	float: left;
+	padding-right:20px;
+	font-size: 16px;
+	color: #333333;
+}
+.input{
+	float: right;
+	width: 296px;
+	height: 100px;
+}      
+.nav-btn{
+	border: 1px solid #e0e0e0;
+	background: #FFFFFF;
+	display: block;
+}
